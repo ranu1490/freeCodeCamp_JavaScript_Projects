@@ -6,7 +6,8 @@ function palindrome(str) {
   console.log(smallStr);
 
   var reversed = smallStr.split("").reverse().join("");
-
+  console.log(reversed);
+  
   if(reversed === smallStr)
     return true;
   else
